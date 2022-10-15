@@ -1,0 +1,188 @@
+.navbar{
+    background-color: #3D0228;
+    .nav-link{
+        color: white;
+    }
+    .nav-link:hover{
+        color: red;
+    }
+}
+
+.hero-fluid{
+    background-image: url('./Media/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+    h1{
+    font-weight: 700;
+    font-size: 40pt;
+    color: #fff;
+    text-shadow: 0 5px 8px #8b0000;
+    text-transform: uppercase;
+    font-family: "Roboto Mono",monospace!important;
+    }
+    h3{
+    margin-top: -10px!important;
+    font-family: "Poppins",sans-serif!important;
+    white-space: 5px;
+    font-weight: 400;
+    font-size: 27px;
+    color: #e0e0e0;
+    padding: 10px;
+    max-width: 500px;
+    }
+    .container.a{
+    padding: 10px;
+    color: #fff;
+    }
+    a{
+        text-decoration: underline;
+    }
+    .button-Buy-now{
+        background-color: transparent;
+        color: white;
+        border: 1px solid grey;
+    }
+}
+
+.staking-fluid1{
+    background-color: black;
+}
+.staking-fluid2{
+    background-image: url('./Media/staking-fluid.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-top: 11rem!important;
+    padding-bottom: 05rem!important;
+    color: white;
+
+    .stake ul {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+.Nft-fluid{
+    background: url('./Media/NFT-bg.png') no-repeat 50%;
+    background-size: cover;
+    padding-top: 60px!important;
+    padding-bottom: 70px!important;
+    color: white;
+}
+
+.povo-fluid{
+    background-image: url('./Media/povo-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.stackwork-fluid{
+    background-color: black;
+}
+
+.benefit-fluid{
+    background: url('./Media/NFT-bg.png') no-repeat 50%;
+    background-size: cover;
+    padding-top: 60px!important;
+    padding-bottom: 70px!important;
+    color: white;
+}
+
+.platformgoing-fluid{
+    background-image: url('./Media/povo-bg.jpg');
+    // background-color:transparentize($color: #000000, $amount: 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.povomission-fluid{
+    background-image: url('./Media/staking-fluid.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-top: 08rem!important;
+    padding-bottom: 08rem!important;
+    color: white;
+}
+
+.povomission-fluid2{
+    background: url('./Media/mission-bg.jpg') no-repeat 50%;
+    background-size: cover;
+    padding-top: 60px!important;
+    padding-bottom: 70px!important;
+    color: white;
+}
+.token-fluid{
+    background-image: url('./Media/staking-fluid.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 10rem!important;
+    color: white;
+}
+
+.roadmap-fluid{
+    background-color: black;
+    padding: 5rem 0rem;
+
+    .rugpul-col1{
+        margin-top: 10rem !important;
+    }
+}
+
+
+//FAQs
+.faq-fluid {
+    background-image: url("./Media/povo-bg.jpg");
+   // background-color:transparentize($color: #000000, $amount: 0);
+   background-repeat: no-repeat;
+   background-size: cover;
+   // background-position: center;
+   background-attachment: fixed;
+   color: white;
+  
+    .styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+      padding: .5rem;
+      margin-bottom: 2rem;
+      background-color: rgb(8, 8, 8);
+      border-radius: 10px;
+    }
+    .faq-cont{
+        padding: 1.5rem 10rem;
+    }
+  }
+
+
+///Footer///
+.footer-fluid {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background: #3D0228 !important;
+  
+    .footer-col1{
+        display: flex;
+        color: white;
+    }
+    .footer-col2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 25px;
+    }
+    .line-horizontal {
+      border-width: 1px;
+      color: white;
+      background-color: white;
+      margin-bottom: 2rem;
+    }
+  }
