@@ -9,11 +9,11 @@ function App() {
   return (
     <>
    <BrowserRouter>
-        {/* <Base> */}
+        <Base>
           <Routes>
             <Route index path="/" element={<Hero/>}/>
           </Routes>
-        {/* </Base> */}
+        </Base>
       </BrowserRouter>
     </>
   );

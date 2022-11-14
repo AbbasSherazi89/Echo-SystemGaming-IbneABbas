@@ -12,13 +12,13 @@ import PovoTokenomics from '../Components/Elements/PovoTokenomics'
 import PovoRoadmap from '../Components/Elements/PovoRoadmap'
 import RugpulProtected from '../Components/Elements/RugpulProtected'
 import FAQs from '../Components/Utils/FAQs'
-import Cards from '../Components/Elements/Cards'
+// import Cards from '../Components/Elements/Cards'
 // import FormValidation from '../Components/Elements/FormValidation'
 
 const Hero = () => {
   return (
     <div>
-      {/* <HeroComp/>
+      <HeroComp/>
       <StakingPlatform/>
       <NFTs/>
       <PovoFetures/>
@@ -30,8 +30,8 @@ const Hero = () => {
       <PovoTokenomics/>
       <PovoRoadmap/>
       <RugpulProtected/>
-      <FAQs/> */}
-      <Cards/>
+      <FAQs/>
+      {/* <Cards/> */}
       {/* <FormValidation/> */}
     </div>
   )
